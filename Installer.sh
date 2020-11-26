@@ -19,3 +19,4 @@ sleep 1
 rm -rf $loc/ngrok-stable-linux-arm.zip
 clear
 echo "Ngrok Installation Successful"
+cd $HOME
