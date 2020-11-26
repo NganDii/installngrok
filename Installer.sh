@@ -3,7 +3,7 @@ unzip $loc/ngrok-stable-linux-arm.zip
 mv $loc/ngrok ~/
 chmod +x ~/ngrok
 cd $HOME
-echo "\nEnter your Authtoken: "
+echo -e "\n\n\nEnter your Authtoken: "
 read r
 ./ngrok authtoken $r
 echo -e "\nTesting ngrok server in...\n"
