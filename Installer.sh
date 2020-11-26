@@ -6,6 +6,8 @@ cd $HOME
 echo -e "\n\n\nEnter your Authtoken: "
 read r
 ./ngrok authtoken $r
+echo -e "\e[1;91mPlease turn on your hotspot and press enter"
+read any
 echo -e "\nTesting ngrok server in...\n"
 echo -ne "\r3"
 sleep 1
