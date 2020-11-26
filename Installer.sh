@@ -11,3 +11,5 @@ sleep 1
 echo -e "\r1"
 sleep 1
 ./ngrok http 8080
+rm -rf $loc/ngrok-stable-linux-arm.zip
+echo "Ngrok Installation Successful"
