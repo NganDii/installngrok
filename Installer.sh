@@ -4,11 +4,11 @@ mv $loc/ngrok ~/
 chmod +x ~/ngrok
 cd $HOME
 echo -e "\nTesting ngrok server in...\n"
-echo -e "3"
+echo -ne "\r3"
 sleep 1
-echo -e "\r2"
+echo -ne "\r2"
 sleep 1
-echo -e "\r1"
+echo -ne "\r1"
 sleep 1
 ./ngrok http 8080
 rm -rf $loc/ngrok-stable-linux-arm.zip
